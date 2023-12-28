@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="steps">
+        <item>Bodega 20</item>
+        <item>Preparando Reserva</item>
+        <item>En camino</item>
+        <item>Lugar de destino</item>
+        <item>Reserva Completada</item>
+    </array>
+    <array name="detailled_steps">
+        <item>La reserva ha sido recepcionada por la bodega</item>
+        <item>La reserva está siendo preparada</item>
+        <item>La reserva está lista para despachar</item>
+        <item>La reserva está siendo cargada al camion</item>
+        <item>Reserva en camino al punto de entrega</item>
+        <item>La Reserva está ubicada en el punto de entrega</item>
+        <item>Reserva Firmada por Usuario </item>
+    </array>
+</resources>

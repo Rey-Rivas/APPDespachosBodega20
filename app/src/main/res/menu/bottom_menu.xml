@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/inicio"
+        android:title="Inicio"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/despachos"
+        android:title="Despachos"
+        android:icon="@drawable/ic_shipping"/>
+    <item
+        android:id="@+id/historial"
+        android:title="Historial"
+        android:icon="@drawable/ic_history"/>
+    <item
+        android:id="@+id/opciones"
+        android:title="Opciones"
+        android:icon="@drawable/ic_settings"/>
+</menu>

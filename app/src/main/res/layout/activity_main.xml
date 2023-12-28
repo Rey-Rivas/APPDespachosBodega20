@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_csh"
+        android:layout_alignParentTop="true"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center"
+        app:cardBackgroundColor="@color/blue"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <EditText
+                android:id="@+id/editTextUsername"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:background="@drawable/text_box"
+                android:drawableStart="@drawable/ic_user"
+                android:hint="RUT" />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/editTextUsername"
+                android:layout_marginTop="10dp"
+                android:hint="Contraseña"
+                android:background="@drawable/text_box"
+                android:drawableStart="@drawable/ic_lock"
+                android:inputType="textPassword"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Recuérdame"
+                android:theme="@style/coloredCheckBox"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/buttonLogin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:minHeight="48dp"
+                android:layout_below="@id/editTextPassword"
+                android:onClick="home"
+                android:backgroundTint="@color/red"
+                android:text="Iniciar Sesión" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
